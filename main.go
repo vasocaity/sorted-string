@@ -8,6 +8,7 @@ import (
 
 func main() {
 	fmt.Println(TwoToOne("aretheyhere", "yestheyarehere"))
+	fmt.Println(TwoToOne("abcdefghijklmnopqrstuvwxyz", "abcdefghijklmnopqrstuvwxyz"))
 }
 func TwoToOne(s1 string, s2 string) string {
 	str := s1 + s2
